@@ -1,7 +1,7 @@
 #/bin/bash
 yum -y install wget vim net-tools
-wget http://ros.wenjie1231.com:800/uploads/vpnserver.tar
-wget http://ros.wenjie1231.com:800/uploads/vpnserver.service
+wget https://github.com/wangfa369/1/blob/master/vpnserver.tar
+wget https://github.com/wangfa369/1/blob/master/vpnserver.service
 systemctl stop firewalld
 systemctl disable firewalld
 yum -y groupinstall "Development Tools"
